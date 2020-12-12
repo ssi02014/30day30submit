@@ -1,4 +1,4 @@
-# 30day30submit-clone
+# 30day30submit-HTML, CSS, JS
 
 ## This Challenge is started on 2020-12-12 📅
 
