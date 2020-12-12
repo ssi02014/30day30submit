@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* data-*은 전역 특성이다. 사용자 지정 데이터 특성이라는 특성 클래스를 형성한다. */
+/* --*은 css 사용자 지적 속성이다. var(--*) 으로 접근할 수 있다. */
+body[data-theme="light"]{
+    --color1: rgb(196, 200, 241);
+    --color2: white;
+    --color3: rgb(200, 200, 200);
+    --color4: rgb(80, 82, 110);
+}
+body[data-theme="dark"]{
+    --color1: #1E1F26;
+    --color2: #292c33;
+    --color3: rgb(39, 40, 42);
+    --color4: rgb(186, 186, 202);
+}
+.switcher {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 25px;
+    right: 25px;
+    border: 2px solid var(--color4);
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.switcher::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--color4);
+    border-radius: 50%;
+    transition: transform .5s ease;
+}
+.switcher.active::before {
+    transform: translate(55px, -50%);
+}
+#contents {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color1);
+}
+
+.contents{
+    width: 400px;
+    border: 1px solid #999;
+    padding: 25px;
+    color: var(--color4);
+}
+
+.contents .contents-title {
+    font-size: 2rem;
+    color: var(--color4)
+}
+.contents .contents-desc {
+    color: var(--color4);
+    margin-bottom: 10px;
+}
+.contents .contents-btn {
+    color: var(--color4);
+    padding: 8px 10px;
+    font-size: 1.5rem;
+}
