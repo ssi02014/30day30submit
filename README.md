@@ -4,3 +4,4 @@
 
 ### Day-1: Custom Cursor
 ### Day-2: Theme Switcher
+### Day-3: Random Joke
