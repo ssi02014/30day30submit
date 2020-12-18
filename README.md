@@ -7,3 +7,4 @@
 ### Day-3: Random Joke
 ### Day-4: Numbers API
 ### Day-5: Countdown Timer
+### Day-6: Featured Section
