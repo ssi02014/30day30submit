@@ -8,3 +8,4 @@
 ### Day-4: Numbers API
 ### Day-5: Countdown Timer
 ### Day-6: Featured Section
+### Day-7: Photo Gallery app 1
