@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292c33;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 400px;
+    border: 1px solid  rgb(80, 82, 110);
+    border-radius: 10px;
+    background-color: rgb(80, 82, 110);
+    overflow: hidden;
+}
+.container p {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+/*
+    align-self
+    auto: 요소의 정렬 상태를 기본으로 설정
+    stretch: 요소의 가로 영역 값을 최대로 설정
+    center: 요소의 정렬을 가운데로 설정
+    flext-start: 요소의 정렬을 시작점으로 설정 (상위 부모가 display:flex여야함)
+    flex-end: 요소의 정렬을 끝점으로 설정합니다. (상위 부모가 display:flex여야함)
+*/
+.container .btn {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-end;
+    /* float: right; */
+    background:  #292c33;;
+    color: #fff;
+}

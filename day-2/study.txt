@@ -1,0 +1,15 @@
+
+css 변수 선언 및 커스텀 속성
+
+body[data-thema="light"]{
+    --color1: rgb(196, 200, 241);
+    --color2: white;
+    --color3: rgb(200, 200, 200);
+    --color4: rgb(80, 82, 110);
+}
+body[data-thema="dark"]{
+    --color1: #1E1F26;
+    --color2: #292c33;
+    --color3: rgb(39, 40, 42);
+    --color4: rgb(186, 186, 202);
+}
