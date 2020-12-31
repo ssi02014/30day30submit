@@ -13,4 +13,3 @@
 ### Day-7: Photo Gallery app UI
 ### Day-8: Photo Gallery app Js
 ### Day-9: Read More Button
-### Day-8: Photo Gallery app JS
