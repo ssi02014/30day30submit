@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# 30submit
+
+>>>>>>> 83b94db83b7b76a213a5e6e5d3a5d18edbdde3d9
 # 30day30submit-HTML, CSS, JS
 
 ## This Challenge is started on 2020-12-12 📅
@@ -9,5 +14,9 @@
 ### Day-5: Countdown Timer
 ### Day-6: Featured Section
 ### Day-7: Photo Gallery app UI
+<<<<<<< HEAD
 ### Day-8: Photo Gallery app Js
 ### Day-9: Read More Button
+=======
+### Day-8: Photo Gallery app JS
+>>>>>>> 83b94db83b7b76a213a5e6e5d3a5d18edbdde3d9
