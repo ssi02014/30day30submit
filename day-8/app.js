@@ -34,9 +34,10 @@ class PhotoGallery {
     async getImg(index) {
         const baseURL = `https://api.pexels.com/v1/curated?page=${index}&per_page=12`;
         const data = await this.fetchImages(baseURL);
-        
+
         this.loadMore.setAttribute('data-img', 'curated');
         this.GenerateHTML(data.photos);
+        
     }
 
     async fetchImages(baseURL) {
@@ -48,12 +49,14 @@ class PhotoGallery {
             }
         });
         const data = await response.json();
+        console.log(data);
         return data;
     }
 
     GenerateHTML(photos){
         photos.forEach(photo => {
             const item = document.createElement('div');
+
             item.classList.add('item');
             item.innerHTML = `
             <a href='#'>
@@ -65,14 +68,17 @@ class PhotoGallery {
         })
     }
     async getSearchedImages(e){
-        this.loadMore.setAttribute('data-img', 'search');
-        e.preventDefault();
-        this.galleryDiv.innerHTML = '';
         const searchValue = e.target.querySelector('input').value;
+        
+        e.preventDefault();
+
+        this.loadMore.setAttribute('data-img', 'search');
+        this.galleryDiv.innerHTML = '';
         this.searchValueGlobal = searchValue;
         const baseURL = `https://api.pexels.com/v1/search?query=${searchValue}&page=1&per_page=12`;
         const data = await this.fetchImages(baseURL);
         this.GenerateHTML(data.photos);
+
         e.target.reset();
     }
 
@@ -94,4 +100,4 @@ class PhotoGallery {
     }
 }
 
-const gallery = new PhotoGallery;
+const gallery = new PhotoGallery();
