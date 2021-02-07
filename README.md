@@ -15,4 +15,5 @@
 ### Day-9: Read More Button
 ### Day-10: Making a Key Code Generator App
 ### Day-11: CSS animated Navigation Menu Bar
+### Day-12: CSS Flex Gallery
 
