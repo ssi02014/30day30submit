@@ -14,6 +14,12 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+nav {
+    position: absolute;
+    top: 30px;
+    right: 150px;
+}
+
 nav ul {
     background-color: white;
     border-radius: 4px;
@@ -27,22 +33,22 @@ nav ul {
     overflow: hidden;
     transform: translateX(50px);
 }
-li a {
+nav.show ul {
+    width: 450px;
+    transform: translateX(0);
+}
+nav li a {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
     color: black;
 }
 
-li:hover a {
+nav li:hover a {
     color: crimson;
 }
-nav {
-    position: absolute;
-    top: 30px;
-    right: 150px;
-}
-.icon {
+
+nav .icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -60,27 +66,22 @@ nav {
     transition: transform .5s ease;
 }
 
-.icon.close {
+nav .icon.close {
     background-image: url(https://image.flaticon.com/icons/svg/748/748122.svg);
     transform: translateY(-50%) rotate(360deg);
-}
-
-nav.show ul {
-    width: 450px;
-    transform: translateX(0);
 }
 
 @media (max-width: 768px) {
     body {
         font-size: 14px;
     }
-    li a {
+    nav li a {
         padding: 5px 10px;
     }
     nav.show ul {
         width: 300px;
     }
-    .icon {
+    nav .icon {
         width: 40px;
         height: 40px;
         right: -50px;
