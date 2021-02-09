@@ -1,6 +1,8 @@
-# 30submit
+# 💻 30submit
 
-# 30day30submit-HTML, CSS, JS
+## ✨ 30day30submit - HTML, CSS, JS
+
+<br />
 
 ## This Challenge is started on 2020-12-12 📅
 
@@ -17,4 +19,5 @@
 ### Day-11: CSS animated Navigation Menu Bar
 ### Day-12: CSS Flex Gallery
 ### Day-13: Analog Clock
+### Day-14: Digital Clock
 
