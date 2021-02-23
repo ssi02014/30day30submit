@@ -1,6 +1,8 @@
 # 💻 30submit
+### HTML과 CSS, Vanila JavaScript로 진행 한 30개 과제
+<br />
 
-## ✨ Stack - HTML, CSS, JS
+## ✨ Stack - HTML, CSS, Vanila JavaScript
 
 <br />
 
@@ -20,5 +22,6 @@
 ### Day-12: CSS Flex Gallery
 ### Day-13: Analog Clock
 ### Day-14: Digital Clock
+### Day-15: Random Color Generator
 
 <br />
