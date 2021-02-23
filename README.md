@@ -1,6 +1,6 @@
 # 💻 30submit
 
-## ✨ 30day30submit - HTML, CSS, JS
+## ✨ Stack - HTML, CSS, JS
 
 <br />
 
@@ -21,3 +21,4 @@
 ### Day-13: Analog Clock
 ### Day-14: Digital Clock
 
+<br />
