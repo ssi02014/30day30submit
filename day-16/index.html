@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tooltip</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="demo-1">
+                <h1 title="this is a title">This is demo 1</h1>
+            </div>
+            <div class="demo-2 tooltip" data-tooltips="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">
+                <h1>This is demo 2</h1>
+            </div>
+            <div class="demo-3">
+                <h1>This is demo 3
+                    <div class="icon tooltip" data-tooltips="Lorem Ipsum is simply dummy text of the printing and typesetting industry.">
+                        <ion-icon name="information-circle"></ion-icon>
+                    </div>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
